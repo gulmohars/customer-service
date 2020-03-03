@@ -19,7 +19,7 @@ app.use(function (req, res, next) {
 
 
 app.get(CONTEXT_BASE+'/health', (req, res) => {
-  res.json({instanceId : ID, version: "1", status: "OK"});
+  res.json({instanceId : ID, version: "1", status: "OKk"});
 });
 
 app.get(CONTEXT_BASE+'/customers/:id', (req, res) => {
